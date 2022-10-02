@@ -14,14 +14,17 @@ export const callbackSync = () => {
 
 export const callbackAsync = () => {
 	setTimeout(() => {
+		const i = Math.random() + 1;
 		console.log('1');
-	}, 1000);
+	}, i);
 
 	setTimeout(() => {
+		const i = Math.random() + 1;
 		console.log('2');
-	}, 1000);
+	}, i);
 
 	setTimeout(() => {
+		const i = Math.random() + 1;
 		console.log('3');
-	}, 1000);
+	}, i);
 }

@@ -10,7 +10,7 @@ npm i
 
 ## intro:
 
-The main function file is **async.js**, and all the functions have already included in this file. You should start by reading how does the main function work before getting into the remain files.
+The main function file is **main.js**, and all the functions have already included in this file. You should start by reading how does the main function work before getting into the remain files.
 
 ## callback -> promise -> async/await
 
