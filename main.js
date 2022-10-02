@@ -2,8 +2,8 @@
 import { callbackSync, callbackAsync } from './callback.js'
 import { delay } from './promise.js'
 
-// callbackSync();
-callbackAsync();
+callbackSync();
+// callbackAsync();
 
 // delay()
 // 	.then(() => { console.log(1); return delay(1000) })
