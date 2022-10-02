@@ -13,18 +13,16 @@ export const callbackSync = () => {
 }
 
 export const callbackAsync = () => {
+
 	setTimeout(() => {
-		const i = Math.random() + 1;
 		console.log('1');
-	}, i);
+	}, Math.random() * 10 + 1);
 
 	setTimeout(() => {
-		const i = Math.random() + 1;
 		console.log('2');
-	}, i);
+	}, Math.random() * 10 + 1);
 
 	setTimeout(() => {
-		const i = Math.random() + 1;
 		console.log('3');
-	}, i);
+	}, Math.random() * 10 + 1);
 }
